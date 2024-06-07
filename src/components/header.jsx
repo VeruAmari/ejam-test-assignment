@@ -1,9 +1,15 @@
 /* eslint-disable react/prop-types */
 import styled from "styled-components";
-import { StyledContainer } from "./sharedStyles";
+import { StyledContainer, MaxWidthContent } from "./sharedStyles";
 
 export const Header = ({ children }) => {
-  return <StyledHeader>{children || "Header"}</StyledHeader>;
+  return (
+    <StyledHeader>
+      <MaxWidthContent>{children || "Header"}</MaxWidthContent>
+    </StyledHeader>
+  );
 };
 
-const StyledHeader = styled(StyledContainer)``;
+const StyledHeader = styled(StyledContainer)`
+  align-self: start;
+`;

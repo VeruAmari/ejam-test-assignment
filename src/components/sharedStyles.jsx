@@ -8,3 +8,9 @@ export const StyledContainer = styled.div`
   color: #fff;
   min-height: 50px;
 `;
+
+export const MaxWidthContent = styled.div`
+  display: flex;
+  width: 100%;
+  max-width: 1245px;
+`;

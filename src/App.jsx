@@ -10,10 +10,11 @@ function App() {
   return (
     <PageContainer>
       <Header />
-      <Subheader />
-      <Steps />
-      <Hero />
-      <Body />
+      <Body>
+        <Subheader />
+        <Steps />
+        <Hero />
+      </Body>
       <Footer />
     </PageContainer>
   );
@@ -21,10 +22,7 @@ function App() {
 
 // Page container styles
 const PageContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  justify-content: space-between;
+  display: grid;
   width: 100vw;
   height: 100vh;
 `;
