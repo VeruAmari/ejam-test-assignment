@@ -6,5 +6,5 @@ export const StyledContainer = styled.div`
   align-items: center;
   background-color: #252f3d;
   color: #fff;
-  min-height: 3rem;
+  min-height: 50px;
 `;

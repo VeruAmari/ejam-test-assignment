@@ -5,4 +5,6 @@ export const Footer = ({ children }) => {
   return <StyledFooter>{children || "Footer"}</StyledFooter>;
 };
 
-const StyledFooter = styled(StyledContainer)``;
+const StyledFooter = styled(StyledContainer)`
+  min-height: 88px;
+`;
