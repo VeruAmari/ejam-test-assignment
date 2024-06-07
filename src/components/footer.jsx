@@ -1,11 +1,8 @@
 import styled from "styled-components";
+import { StyledContainer } from "./sharedStyles";
 
-const Container = () => {
-  <></>;
+export const Footer = ({ children }) => {
+  return <StyledFooter>{children || "Footer"}</StyledFooter>;
 };
 
-export const StyledContainer = styled(Container)`
-  display: flex;
-  background-color: blue;
-  height: 3rem;
-`;
+const StyledFooter = styled(StyledContainer)``;
