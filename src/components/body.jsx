@@ -9,6 +9,6 @@ export const Body = ({ children }) => {
 const Container = styled(MaxWidthContent)`
   justify-self: center;
   align-self: start;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  min-height: 100%;
 `;

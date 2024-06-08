@@ -23,6 +23,7 @@ function App() {
 // Page container styles
 const PageContainer = styled.div`
   display: grid;
+  grid-template-rows: auto 1fr auto;
   width: 100vw;
   height: 100vh;
 `;

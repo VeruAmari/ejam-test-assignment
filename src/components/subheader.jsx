@@ -21,6 +21,7 @@ export const Subheader = ({ children }) => {
 };
 const Sponsors = styled.div`
   display: flex;
+  gap: 32px;
 `;
 const Logo = styled.img``;
 const McAffee = styled.img``;
@@ -32,4 +33,6 @@ const Container = styled.div`
   align-self: start;
   height: auto;
   width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 `;
